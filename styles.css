@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 :root {
-  --bg: #5f4b8b;
+  --bg: #3B4252;
   --fg: #ffffff;
   --secondaryFg: #b3b3b3;
-  --containerBg: #272727;
+  --containerBg: #2E3440;
   --searchBg: var(--containerBg);
   --scrollbarColor: #3f3f3f;
   --fontFamily: 'Roboto Mono', monospace;
 }
 
 body {
+  background-image: url("nord1.png");
   background-color: var(--bg);
   margin: 0px;
+  <img src="nordlogo1.png" alt="nordlogo1">
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .container {
@@ -43,6 +51,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #search-field {
