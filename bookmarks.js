@@ -6,6 +6,7 @@ const bookmarks = [
       { name: "AUR", url: "https://aur.archlinux.org"},
       { name: "GitHub", url: "https://github.com" },
       { name: "Docs", url: "https://docs.google.com" },
+      { name: "Wikipedia", url: "https://en.wikipedia.org" },
     ],
   },
 
@@ -14,7 +15,8 @@ const bookmarks = [
     links: [
       { name: "Twitter", url: "https://twitter.com" },
       { name: "Youtube", url: "https://youtube.com" },
-      { name: "Spotify", url: "https://spotify.com" },
+      { name: "Spotify", url: "https://open.spotify.com" },
+      { name: "Reddit", url: "https://reddit.com" },
     ],
   },
 ];
