@@ -1,4 +1,4 @@
-# [Homepage](https://danggoodcode.com/startpage)
+# [Homepage]
 
 
 ## Customization
